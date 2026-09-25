@@ -1,0 +1,54 @@
+name: TurtleRoles
+version: '${version}'
+main: dev.turtleroles.TurtleRolesPlugin
+api-version: '1.21.11'
+load: POSTWORLD
+authors: [Exil, Codex]
+description: Protected role hierarchy, moderation and automatic badge resource-pack delivery.
+
+commands:
+  role:
+    description: View and manage TurtleRoles roles.
+    usage: /role
+    aliases: [roles]
+  tr:
+    description: TurtleRoles utility and diagnostic command.
+    usage: /util help
+    aliases: [turtleroles, util]
+  warn:
+    description: Warn a known player.
+  warnings:
+    description: View player warnings.
+  unwarn:
+    description: Revoke a warning case.
+  tempmute:
+    description: Temporarily mute a known player.
+  mute:
+    description: Permanently mute a known player.
+  unmute:
+    description: Revoke a mute case.
+  tempban:
+    description: Temporarily ban a known player.
+  ban:
+    description: Permanently ban a known player.
+  unban:
+    description: Revoke a ban case.
+  kick:
+    description: Kick a known online player.
+  history:
+    description: View moderation case history.
+  case:
+    description: View a moderation case.
+  gamemode:
+    description: Protected gamemode changes.
+    aliases: [gm]
+  invsee:
+    description: Read-only inventory inspection of lower-ranked players.
+
+permissions:
+  turtleroles.staff:
+    default: false
+  turtleroles.admin:
+    default: false
+  turtleroles.owner:
+    default: false

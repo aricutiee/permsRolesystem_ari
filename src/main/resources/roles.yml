@@ -1,0 +1,36 @@
+roles:
+  owner:
+    label: OWNER
+    weight: 700
+    actual-op: true
+    glyph: "\uE001"
+  co_owner:
+    label: CO-OWNER
+    weight: 600
+    actual-op: false
+    glyph: "\uE002"
+  sr_admin:
+    label: SR ADMIN
+    weight: 500
+    actual-op: false
+    glyph: "\uE003"
+  admin:
+    label: ADMIN
+    weight: 400
+    actual-op: false
+    glyph: "\uE004"
+  moderator:
+    label: MODERATOR
+    weight: 300
+    actual-op: false
+    glyph: "\uE005"
+  helper:
+    label: HELPER
+    weight: 200
+    actual-op: false
+    glyph: "\uE006"
+  member:
+    label: MEMBER
+    weight: 100
+    actual-op: false
+    glyph: "\uE007"

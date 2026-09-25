@@ -1,0 +1,35 @@
+{
+  "plugin": "TurtleRoles",
+  "target": {"edition": "Java", "server": "Paper", "minecraft": "1.21.11", "java": 21},
+  "font": "turtleroles:roles",
+  "newPlayerRole": "member",
+  "resourcePack": {
+    "enabled": true,
+    "autoSendOnJoin": true,
+    "required": false,
+    "url": "",
+    "sha1": "",
+    "administratorHostingSetupRequired": true,
+    "manualPlayerInstallationRequired": false,
+    "clientAcceptanceMayBeRequired": true,
+    "applySavedRoleIconOnJoin": true,
+    "refreshIconsAfterSuccessfulLoad": true,
+    "redownloadOnRoleChange": false,
+    "pendingOrUnavailablePresentation": "colored_role_text"
+  },
+  "staffTargetPolicy": "strictly_lower_rank",
+  "roleGrantPolicy": "both_target_current_rank_and_granted_rank_strictly_lower_than_actor",
+  "helperMaxTempmuteSeconds": 3600,
+  "moderatorMaxTempmuteSeconds": 604800,
+  "moderatorMaxTempbanSeconds": 604800,
+  "roles": [
+    {"id":"owner","label":"OWNER","weight":700,"glyph":"\uE001","texture":"owner.png","palette":["#5BCEFA","#F5A9B8","#FFFFFF","#F5A9B8","#5BCEFA"],"gradient":"horizontal_five_stop","actualOp":true},
+    {"id":"co_owner","label":"CO-OWNER","weight":600,"glyph":"\uE002","texture":"co_owner.png","palette":["#164B35","#3E9161","#A8CA7B"],"decoration":"small_pixel_turtle_shell","actualOp":false},
+    {"id":"sr_admin","label":"SR ADMIN","weight":500,"glyph":"\uE003","texture":"sr_admin.png","palette":["#080A0D","#242830","#8E98A6"],"actualOp":false},
+    {"id":"admin","label":"ADMIN","weight":400,"glyph":"\uE004","texture":"admin.png","palette":["#650E24","#8B1234","#BD2142"],"actualOp":false},
+    {"id":"moderator","label":"MODERATOR","weight":300,"glyph":"\uE005","texture":"moderator.png","palette":["#14532D","#15803D","#41CE70"],"actualOp":false},
+    {"id":"helper","label":"HELPER","weight":200,"glyph":"\uE006","texture":"helper.png","palette":["#A96D09","#D49A12","#FFE477"],"actualOp":false},
+    {"id":"member","label":"MEMBER","weight":100,"glyph":"\uE007","texture":"member.png","palette":["#454B55","#626975","#AEB5C0"],"actualOp":false}
+  ],
+  "assetStatus": "Reference artwork supplied; coding assistant must generate production PNGs and working resource pack."
+}
