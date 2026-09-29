@@ -3,7 +3,7 @@ version: '${version}'
 main: dev.turtleroles.TurtleRolesPlugin
 api-version: '1.21.11'
 load: POSTWORLD
-authors: [Exil, Codex]
+authors: [ari]
 description: Protected role hierarchy, moderation and automatic badge resource-pack delivery.
 
 commands:
